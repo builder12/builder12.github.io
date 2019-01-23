@@ -695,10 +695,6 @@ a:hover {
 #msg-box2-t P {
   color: #ffffff;
 }
-#header4-g .mbr-iconfont {
-  color: undefined;
-  border-color: undefined;
-}
 #header4-g .mbr-table-cell {
   vertical-align: middle;
 }
@@ -709,10 +705,6 @@ a:hover {
 #content5-i .mbr-section-subtitle {
   margin-bottom: 1rem;
   color: #ffffff;
-}
-#content5-i .mbr-iconfont {
-  color: undefined;
-  border-color: undefined;
 }
 #content5-i .mbr-table-cell {
   vertical-align: middle;
@@ -785,9 +777,6 @@ a:hover {
 #menu1-15 .dropdown-item[aria-expanded="true"] {
   color: #5aac98!important;
 }
-#subscribe1-1g .form-control-label {
-  color: undefined;
-}
 #footer3-1d .mbr-section-text {
   color: #8acdbc;
 }
@@ -806,10 +795,6 @@ a:hover {
 #content5-1e .mbr-section-subtitle {
   margin-bottom: 1rem;
   color: #ffffff;
-}
-#content5-1e .mbr-iconfont {
-  color: undefined;
-  border-color: undefined;
 }
 #content5-1e .mbr-table-cell {
   vertical-align: middle;
@@ -882,10 +867,6 @@ a:hover {
 #header2-8 .mbr-section-title,
 #header2-8 .mbr-section-subtitle {
   color: #ffffff;
-}
-#header2-8 .mbr-iconfont {
-  color: undefined;
-  border-color: undefined;
 }
 #header2-8 .mbr-table-cell {
   vertical-align: middle;
