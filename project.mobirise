@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "ZaCar Electric Taxi",
-    "currentPage": "index.html",
+    "currentPage": "our-partners.html",
     "theme": {
       "name": "directm",
       "title": "DirectM",
@@ -26,7 +26,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.8.10",
     "siteFonts": [],
-    "uniqCompNum": 60,
+    "uniqCompNum": 65,
     "versionPublish": "4.8.10",
     "screenshot": "screenshot.png",
     "mcShopcart": {
@@ -615,7 +615,7 @@
           "list3": "Get a Ride",
           "list4": "Rates and More",
           "list5": "Links",
-          "list6": "<a href=\"http://mobirise.com\">T</a>witter",
+          "list6": "Twitter",
           "list7": "Facebook",
           "list8": "<a href=\"http://mobirise.com\">Mobile menu</a>",
           "list9": "<a href=\"http://mobirise.com\">Google maps</a>",
@@ -645,7 +645,7 @@
     "zacar-taxi-fleet.html": {
       "settings": {
         "title": "our-fleet",
-        "order": 3,
+        "order": 4,
         "meta_descr": "Za Car Electric Taxi Limo Fleet.  ",
         "header_custom": "",
         "html_before": ""
@@ -946,7 +946,7 @@
             "contentAlign": "center",
             "showArrow": true,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/43666928-2057101554327864-8624867798696329216-n1-960x7200.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/43666928-2057101554327864-8624867798696329216-n1-960x7201.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#bdb39a",
@@ -1305,7 +1305,7 @@
     "zacar-gallery.html": {
       "settings": {
         "title": "gallery",
-        "order": 2,
+        "order": 3,
         "meta_descr": "ZaCAR Images for services in Naperville IL."
       },
       "components": [
@@ -1501,7 +1501,7 @@
           "list3": "Get a Ride",
           "list4": "Rates and More",
           "list5": "Links",
-          "list6": "<a href=\"http://mobirise.com\">T</a>witter",
+          "list6": "Twitter",
           "list7": "Facebook",
           "list8": "<a href=\"http://mobirise.com\">Mobile menu</a>",
           "list9": "<a href=\"http://mobirise.com\">Google maps</a>",
@@ -1858,7 +1858,7 @@
     "price.html": {
       "settings": {
         "title": "pricing Ride Cost",
-        "order": 4,
+        "order": 5,
         "meta_descr": "",
         "header_custom": ""
       },
@@ -2516,7 +2516,7 @@
           "list3": "Get a Ride",
           "list4": "Rates and More",
           "list5": "Links",
-          "list6": "<a href=\"http://mobirise.com\">T</a>witter",
+          "list6": "Twitter",
           "list7": "Facebook",
           "list8": "<a href=\"http://mobirise.com\">Mobile menu</a>",
           "list9": "<a href=\"http://mobirise.com\">Google maps</a>",
@@ -2546,7 +2546,7 @@
     "contact-us.html": {
       "settings": {
         "title": "contact-us",
-        "order": 1,
+        "order": 2,
         "header_custom": ""
       },
       "components": [
@@ -2810,7 +2810,7 @@
           "list3": "Get a Ride",
           "list4": "Rates and More",
           "list5": "Links",
-          "list6": "<a href=\"http://mobirise.com\">T</a>witter",
+          "list6": "Twitter",
           "list7": "Facebook",
           "list8": "<a href=\"http://mobirise.com\">Mobile menu</a>",
           "list9": "<a href=\"http://mobirise.com\">Google maps</a>",
@@ -2880,7 +2880,7 @@
     "location.html": {
       "settings": {
         "title": "location",
-        "order": 7,
+        "order": 8,
         "meta_descr": "How to use your ZaCar App for getting a ride in Naperville. "
       },
       "components": [
@@ -3006,7 +3006,7 @@
           "list3": "Get a Ride",
           "list4": "Rates and More",
           "list5": "Links",
-          "list6": "<a href=\"http://mobirise.com\">T</a>witter",
+          "list6": "Twitter",
           "list7": "Facebook",
           "list8": "<a href=\"http://mobirise.com\">Mobile menu</a>",
           "list9": "<a href=\"http://mobirise.com\">Google maps</a>",
@@ -3036,7 +3036,7 @@
     "local-events-page.html": {
       "settings": {
         "title": "Naperville Events Socal Gathering",
-        "order": 8,
+        "order": 9,
         "meta_descr": "How to use your ZaCar App for getting a ride in Naperville. "
       },
       "components": [
@@ -3162,7 +3162,7 @@
           "list3": "Get a Ride",
           "list4": "Rates and More",
           "list5": "Links",
-          "list6": "<a href=\"http://mobirise.com\">T</a>witter",
+          "list6": "Twitter",
           "list7": "Facebook",
           "list8": "<a href=\"http://mobirise.com\">Mobile menu</a>",
           "list9": "<a href=\"http://mobirise.com\">Google maps</a>",
@@ -3192,7 +3192,7 @@
     "app-for-phone.html": {
       "settings": {
         "title": "app-for-phone",
-        "order": 6
+        "order": 7
       },
       "components": [
         {
@@ -3317,7 +3317,7 @@
           "list3": "Get a Ride",
           "list4": "Rates and More",
           "list5": "Links",
-          "list6": "<a href=\"http://mobirise.com\">T</a>witter",
+          "list6": "Twitter",
           "list7": "Facebook",
           "list8": "<a href=\"http://mobirise.com\">Mobile menu</a>",
           "list9": "<a href=\"http://mobirise.com\">Google maps</a>",
@@ -3347,7 +3347,7 @@
     "advertise-with-us.html": {
       "settings": {
         "title": "advertise-with us",
-        "order": 5
+        "order": 6
       },
       "components": [
         {
@@ -3472,7 +3472,7 @@
           "list3": "Get a Ride",
           "list4": "Rates and More",
           "list5": "Links",
-          "list6": "<a href=\"http://mobirise.com\">T</a>witter",
+          "list6": "Twitter",
           "list7": "Facebook",
           "list8": "<a href=\"http://mobirise.com\">Mobile menu</a>",
           "list9": "<a href=\"http://mobirise.com\">Google maps</a>",
@@ -3502,7 +3502,7 @@
     "privacy-policy.html": {
       "settings": {
         "title": "privacy policy ",
-        "order": 9
+        "order": 10
       },
       "components": [
         {
@@ -3689,7 +3689,7 @@
           "list3": "Get a Ride",
           "list4": "Rates and More",
           "list5": "Links",
-          "list6": "<a href=\"http://mobirise.com\">T</a>witter",
+          "list6": "Twitter",
           "list7": "Facebook",
           "list8": "<a href=\"http://mobirise.com\">Mobile menu</a>",
           "list9": "<a href=\"http://mobirise.com\">Google maps</a>",
@@ -3874,6 +3874,253 @@
               "border-color": "@primaryColor"
             }
           }
+        }
+      ]
+    },
+    "our-partners.html": {
+      "settings": {
+        "title": "Our Partners",
+        "order": 1,
+        "meta_descr": "Mobile Marketing Company that are trying to connect like minded brands while providing transportation services around the Downtown Naperville Area. "
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-toggler": {
+              "color": "#74a3c7"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#74a3c7"
+            },
+            ".link, .dropdown-item": {
+              "color": "#74a3c7",
+              "font-family": "'Libre Franklin', serif"
+            },
+            ".link": {
+              "font-size": "0.8125rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.880rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#74a3c7"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#fff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#74a3c7",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#075441!important"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#fff",
+            "fontSize": 0.8125,
+            "imageSize": 4,
+            "fontName": {
+              "name": "Libre Franklin",
+              "css": "'Libre Franklin', serif",
+              "link": "https://fonts.googleapis.com/css?family=Libre+Franklin:400,400i,600,600i"
+            },
+            "fontColor": "#74a3c7",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"zacar-gallery.html\">Gallery</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Services</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Wedding Shuttles</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Hoilday Events</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Corporate Events</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Call us&nbsp;</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"contact-us.html\">Contact forms</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Social buttons</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\"></a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Bar Crawls</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">HELP</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://forums.mobirise.com/\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"/contact-us\">Contact us</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"zacar-taxi-fleet.html\" aria-expanded=\"false\">Fleet</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"app-for-phone.html\">Download</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/mbr-1920x1057.jpg",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Zacar Taxi</a>",
+          "buttons": "<a class=\"btn btn-info\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type text\">Download now</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu1",
+          "_anchor": "menu1-1o"
+        },
+        {
+          "_params": {
+            "showIcons": true,
+            "rows": "9",
+            "listColor": "#ffe3ab",
+            "btnColor": "#fffffd",
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#455c97",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=7LDRrdD-Qww"
+            },
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.4
+          },
+          "heading": "<a href=\"index.html#features1-4\" class=\"text-warning\">Copyright 2019, ZA Car LLC . License: EULA</a>",
+          "list1": "Home",
+          "list2": "Advertise With Us",
+          "list3": "Get a Ride",
+          "list4": "Rates and More",
+          "list5": "Links",
+          "list6": "Twitter",
+          "list7": "Facebook",
+          "list8": "<a href=\"http://mobirise.com\">Mobile menu</a>",
+          "list9": "<a href=\"http://mobirise.com\">Google maps</a>",
+          "list10": "",
+          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><i class=\"socicon socicon-facebook\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\"><i class=\"socicon socicon-google\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"YouTube\" target=\"_blank\" href=\"https://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/mobirise/\"><i class=\"socicon socicon-instagram\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Pinterest\" target=\"_blank\" href=\"https://www.pinterest.com/mobirise/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-pinterest\"></i></a>  <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/in/mobirise\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-linkedin\"></i></a>   ",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer2",
+          "_styles": {
+            ".footer-list": {
+              "color": "#ffe3ab"
+            },
+            ".btn-social": {
+              "border-color": "#fffffd",
+              "color": "#fffffd"
+            },
+            ".btn-social:hover": {
+              "background": "#fffffd",
+              "color": "#fff"
+            }
+          },
+          "_anchor": "footer2-1p"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "P": {
+              "color": "#455c97"
+            },
+            "H1": {
+              "color": "#5aac98"
+            }
+          },
+          "_params": {
+            "showMeta": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgColor": "#fff"
+          },
+          "title": "Our Partners&nbsp;",
+          "meta": "Cotact us for More information on becoming a Partner.&nbsp;",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content3",
+          "_anchor": "content3-1s"
+        },
+        {
+          "_params": {
+            "autoplay": true,
+            "timeout": 5,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "showBullets": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#5b5f6b",
+            "overlayOpacity": 0.95,
+            "slides": [
+              {
+                "active": true,
+                "showButtons": false,
+                "showImage": true,
+                "showText": true,
+                "showTitle": true,
+                "title": "Our Partners&nbsp;",
+                "image": "@PROJECT_PATH@/assets/images/01.png",
+                "contentAlign": "center",
+                "text": "Creat",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-black btn-black-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "showButtons": false,
+                "showImage": true,
+                "showText": true,
+                "showTitle": true,
+                "image": "@PROJECT_PATH@/assets/images/02.png",
+                "title": "What to Advertise With us",
+                "contentAlign": "center",
+                "text": "Conact Jessica&nbsp;",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-black btn-black-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "showButtons": false,
+                "showImage": true,
+                "showText": true,
+                "showTitle": true,
+                "image": "@PROJECT_PATH@/assets/images/03.png",
+                "title": "Coming Soon",
+                "contentAlign": "center",
+                "text": "Coming Soon",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-black btn-black-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              }
+            ]
+          },
+          "articleLayout": false,
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features1",
+          "_anchor": "features1-1r"
         }
       ]
     }

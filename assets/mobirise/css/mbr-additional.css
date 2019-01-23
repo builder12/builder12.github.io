@@ -1376,3 +1376,89 @@ a:hover {
   background: #075441;
   border-color: #075441;
 }
+#menu1-1o .hide-buttons .nav-btn {
+  display: none !important;
+}
+#menu1-1o .navbar-toggler {
+  color: #74a3c7;
+}
+#menu1-1o .close-icon::before,
+#menu1-1o .close-icon::after {
+  background-color: #74a3c7;
+}
+#menu1-1o .link,
+#menu1-1o .dropdown-item {
+  color: #74a3c7;
+  font-family: 'Libre Franklin', serif;
+}
+#menu1-1o .link {
+  font-size: 0.8125rem;
+}
+#menu1-1o .dropdown-item,
+#menu1-1o .nav-dropdown-sm .link {
+  font-size: 0.880rem;
+}
+#menu1-1o .link:hover,
+#menu1-1o .link:focus {
+  color: #075441;
+}
+#menu1-1o .dropdown-item:hover::before,
+#menu1-1o .dropdown-item:focus::before {
+  background: #075441;
+}
+#menu1-1o .dropdown-item:hover,
+#menu1-1o .dropdown-item:focus {
+  color: #74a3c7;
+}
+#menu1-1o .link[aria-expanded="true"],
+#menu1-1o .dropdown-menu {
+  background: #ffffff;
+}
+#menu1-1o .nav-dropdown-sm .link:focus,
+#menu1-1o .nav-dropdown-sm .link:hover,
+#menu1-1o .nav-dropdown-sm .dropdown-item:focus,
+#menu1-1o .nav-dropdown-sm .dropdown-item:hover {
+  background: #f7f7f7!important;
+}
+#menu1-1o .navbar,
+#menu1-1o .nav-dropdown-sm,
+#menu1-1o .nav-dropdown-sm .link[aria-expanded="true"],
+#menu1-1o .nav-dropdown-sm .dropdown-menu {
+  background: #fff;
+}
+#menu1-1o .bg-color.transparent .link {
+  color: #74a3c7;
+  transition: none;
+}
+#menu1-1o .bg-color.transparent.opened .link {
+  transition: color 0.2s ease-in-out;
+}
+#menu1-1o .bg-color.transparent.opened .link:hover,
+#menu1-1o .bg-color.transparent.opened .link:focus {
+  color: #075441;
+}
+#menu1-1o .link[aria-expanded="true"],
+#menu1-1o .dropdown-item[aria-expanded="true"] {
+  color: #075441!important;
+}
+#footer2-1p .footer-list {
+  color: #ffe3ab;
+}
+#footer2-1p .btn-social {
+  border-color: #fffffd;
+  color: #fffffd;
+}
+#footer2-1p .btn-social:hover {
+  background: #fffffd;
+  color: #fff;
+}
+#content3-1s .mbr-section-title,
+#content3-1s .mbr-section-subtitle {
+  text-align: center;
+}
+#content3-1s P {
+  color: #455c97;
+}
+#content3-1s H1 {
+  color: #5aac98;
+}
