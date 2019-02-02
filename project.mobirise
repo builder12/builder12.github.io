@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "ZaCar Electric Taxi",
-    "currentPage": "mainpage.html",
+    "currentPage": "privacy-policy.html",
     "theme": {
       "name": "directm",
       "title": "DirectM",
@@ -26,7 +26,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.8.10",
     "siteFonts": [],
-    "uniqCompNum": 69,
+    "uniqCompNum": 80,
     "versionPublish": "4.9.1",
     "screenshot": "screenshot.png",
     "mcShopcart": {
@@ -57,7 +57,7 @@
     "zacar-gallery.html": {
       "settings": {
         "title": "gallery",
-        "order": 5,
+        "order": 4,
         "meta_descr": "ZaCAR Images for services in Naperville IL.",
         "header_custom": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-133472443-1\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-133472443-1');\n</script>\n\n"
       },
@@ -201,116 +201,155 @@
         {
           "_params": {
             "showTitle": true,
-            "showText": true,
-            "showButtons": true,
-            "inverse": false,
-            "showArrow": false,
-            "imageSize": 58,
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/header3.jpg",
-            "parallax": false,
-            "bgColorRadio": false,
-            "bgColor": "#2e2e2e",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
-            },
-            "overlay": true,
-            "overlayColor": "#667bb1",
-            "overlayOpacity": 0.8
-          },
-          "media": {
-            "image": {
-              "active": true,
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/za-car-cover-fb-1-1280x853.jpg",
-              "link": "",
-              "alt": "Zacar Taxi image",
-              "title": "Zacar Naperville Taxi"
-            },
-            "video": {
-              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            }
-          },
-          "title": "Take A look at our Photos&nbsp;",
-          "text": "See what Zacar Is all about&nbsp;",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"tel:+1-815-609-9705\" data-toolbar=\"-mbrBtnMove\">Book a ride</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "_anchor": "header3-17"
-        },
-        {
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "showHeading": true,
-            "showTitle": true,
             "showText": false,
-            "showButtons": false,
-            "formBg": "#fafbfc",
-            "formHeader": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
-            "parallax": false,
+            "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#fffffd",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
-            },
-            "overlay": true,
-            "overlayColor": "#fffffd",
-            "overlayOpacity": 0.95
+            "bgColor": "#ffffff",
+            "overlay": false,
+            "overlayColor": "#f6f7f8",
+            "overlayOpacity": 0.5
           },
-          "title": "Got a question?",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, sed iusto corrupti explicabo. Dignissimos, harum. Adipisci dolorem odit minima assumenda nostrum quam nihil, iusto, ad eligendi laudantium doloribus eius reiciendis.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Get started</a>",
-          "header": "Send us an email",
+          "title": "Subscribe now!",
+          "subtitle": "Get notified about new amazing products",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-lg btn-primary\">Send</a>",
           "form": {
             "action": "book@5starlimobusrentals.com",
             "alerts": {
               "success": "Thanks for filling out form!"
             },
             "fields": {
-              "name": {
-                "visible": true,
-                "title": "Name",
-                "customTitle": "Name*"
-              },
               "email": {
-                "visible": true,
                 "title": "Email",
-                "customTitle": "Email*"
-              },
-              "phone": {
-                "visible": true,
-                "title": "Phone",
-                "customTitle": "Phone"
-              },
-              "message": {
-                "title": "Message",
-                "customTitle": "Message"
+                "customTitle": "Enter Your Email Address..."
               }
             }
           },
-          "buttons1": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-lg btn-primary\">Send message</a>",
           "_tags": [
             "Theme"
           ],
-          "_name": "form1",
+          "_name": "subscribe1",
+          "_anchor": "subscribe1-1g",
           "_styles": {
-            ".form": {
-              "background": "#fafbfc"
-            }
+            ".form-control-label": {}
+          }
+        },
+        {
+          "_params": {
+            "showBullets": true,
+            "fullWidth": false,
+            "spacing": 0,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "filterBgColor": false,
+            "bgColor": "#FFFFFF",
+            "showText": false,
+            "filter": false,
+            "images": [
+              {
+                "tags": "Awesome",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "image": "@PROJECT_PATH@/assets/images/gallery00.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/gallery00.jpg",
+                "alt": "",
+                "title": "",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "caption": "Type caption here",
+                "active": true
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/gallery01.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/gallery01.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Creative",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/gallery02.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/gallery02.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/gallery03.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/gallery03.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Awesome",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/gallery04.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/gallery04.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Beautiful",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/gallery06.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/gallery06.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/gallery05.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/gallery05.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/gallery07.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/gallery07.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here"
+              }
+            ]
           },
-          "_anchor": "form1-1y"
+          "articleLayout": false,
+          "arrowleft": "<img src=\"@PROJECT_PATH@/assets/images/arrowleft.png\">",
+          "arrowright": "<img src=\"@PROJECT_PATH@/assets/images/arrowright.png\">",
+          "allItem": "All",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_anchor": "gallery1-1q"
         },
         {
           "_params": {
@@ -397,56 +436,120 @@
         {
           "_params": {
             "showTitle": true,
-            "showText": false,
-            "tabs": "3",
-            "collapseAll": false,
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/_background/accordion1.jpg",
+            "showText": true,
+            "showButtons": true,
+            "inverse": false,
+            "showArrow": false,
+            "imageSize": 58,
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/header3.jpg",
             "parallax": false,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgColor": "#2e2e2e",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
             },
             "overlay": true,
-            "overlayColor": "#151515",
-            "overlayOpacity": 0.5
+            "overlayColor": "#667bb1",
+            "overlayOpacity": 0.8
           },
-          "title": "Toggle FAQ",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut beatae nostrum quis ab, fuga ducimus, eligendi facere atque provident tempore vitae, cupiditate fugit explicabo. Nostrum quidem itaque blanditiis maxime, perferendis numquam ab a exercitationem impedit repellat, voluptate sunt! Veritatis, nam.",
-          "title1": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseOnetoggle1-h\" aria-expanded=\"false\" aria-controls=\"collapseOne\"><span class=\"sign\"></span>What is Za Car</a>",
-          "title2": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseTwotoggle1-h\" aria-expanded=\"true\" aria-controls=\"collapseTwo\">Is it good for me?</a>",
-          "title3": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseThreetoggle1-h\" aria-expanded=\"true\" aria-controls=\"collapseThree\">Why Za Car</a>",
-          "title4": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseFour\" aria-expanded=\"false\" aria-controls=\"collapseFour\">This is a accordion Title 4</a>",
-          "title5": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">This is a accordion Title 5</a>",
-          "title6": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">This is a accordion Title 6</a>",
-          "text1": "",
-          "text2": "<p><br></p><p>Back By Popular Demand! Saturday, July 28!\n</p><p>Join us in beautiful Downtown Naperville to celebrate all things MAGIC &amp; WIZARDING on Saturday, July 28. Downtown Naperville is known for many things including our great magical family-friendly celebrations! Well, we’re doing it again – just for you with an Afternoon of Magic, in partnership with the Naperville Public Library!\n</p><p>Saturday, July 28 from 3-7PM with a special Movie in the Central Park starting at 8PM. There will be many fun and exciting offerings (wand making, magical potions and surprises along with a scavenger hunt too), but the majority of events will occur between 3-7pm. Following the merriment, we will be showing the original The Incredibles movie in Central Park, in partnership with the Kroehler Family YMCA (starting at 8pm; free to attend).\n</p><p>EVENT SCHEDULE \n</p><p>To help you plan how you’d like to spend this magnificent and magical afternoon and evening! Also, read on for answers to Frequently Asked Questions!\n</p><p>Is this free to attend? Yes! Many downtown businesses will be offering fun surprises (some with cost) and are “while supplies last” and so the earlier you arrive the better. The movie in the park is also free to attend. Bench seating is available but for assured seating, we encourage you to bring portable seating or blankets. (Call the Kroehler Family YMCA for more details on the movie viewing). Movie will start at dusk, approximately 8pm. (Make Dinner Reservations in Advance).\n</p><p>How can I get a copy of the schedule of events so I know what’s going on and when? SEE ABOVE. (Click EVENT SCHEDULE link). Or, you’ll be able to pick up a copy at our MAGIC check-in booth at Main &amp; Jefferson, starting at 3PM on July 28. (Special surprises for the first 500 to arrive too).\n</p><p>Where should we park? Parking decks always have the most plentiful spaces. There are also surface parking lots and street spaces. Carpool, Uber, ride a bike or here’s an idea, reserve a ride a Tuk Tuk! (tuktuknaperville.com)  or ZaCar. Fun!\n</p><p>Is this good for all ages? Remind me of the dates again? Yes, it is good for all ages. NOTE THE TIMES participating businesses are open and visit them all (items will be available for purchase at individual businesses; THANK YOU for supporting our downtown businesses)! Reminder: The event is on Saturday, July 28 with most events starting after 3 pm (Nichols Library has magical events all day and evening though). Have fun!</p>",
-          "text3": "Ribfest",
-          "text4": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
-          "text5": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
-          "text6": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/za-car-cover-fb-1-1280x853.jpg",
+              "link": "",
+              "alt": "Zacar Taxi image",
+              "title": "Zacar Naperville Taxi"
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title": "Take A look at our Photos&nbsp;",
+          "text": "See what Zacar Is all about&nbsp;",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"tel:+1-815-609-9705\" data-toolbar=\"-mbrBtnMove\">Book a ride</a>",
           "_tags": [
             "Theme"
           ],
-          "_name": "toggle1",
-          "_styles": {
-            "DIV": {
-              "color": "#667bb1"
-            }
+          "_name": "header3",
+          "_anchor": "header3-17"
+        },
+        {
+          "_params": {
+            "autoplay": true,
+            "animType": "kenburns",
+            "theme": "boundary",
+            "slides": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/slide3.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/slide3.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/tooltip3.jpg",
+                "title": "title 1",
+                "text": "text 1",
+                "active": true
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/slide2.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/slide2.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/tooltip2.jpg",
+                "title": "title 2",
+                "text": "text 2"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/slide1.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/slide1.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/tooltip1.jpg",
+                "title": "title 3",
+                "text": "text 3",
+                "active": false
+              }
+            ],
+            "fullScreen": true,
+            "showCaptions": false,
+            "hideControls": false,
+            "responsive": "1",
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "captionsEffect": "slide",
+            "showBullets": false,
+            "bgColor": "#ffffff",
+            "timeout": 2,
+            "duration": 2,
+            "customSize": false,
+            "customWidth": "1600",
+            "customHeight": "1080",
+            "size": "1024x576",
+            "width": "1024",
+            "height": "576"
           },
-          "_anchor": "toggle1-1x"
+          "articleLayout": false,
+          "alias": "wowslider",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "wowslider",
+          "_anchor": "wowslider-1a"
         },
         {
           "_params": {
             "paddingTop": 0,
             "paddingBottom": 0,
-            "socialFacebook": false,
+            "socialFacebook": true,
             "postsNumber": 5,
-            "socialGoogle": true,
+            "socialGoogle": false,
             "socialDisqus": false,
             "shortName": "",
             "bgColorRadio": true,
@@ -458,7 +561,7 @@
             "overlayOpacity": 0.6
           },
           "innerText": "<div class=\"facebookPlaceholder\" data-numposts=\"\"><h2>FACEBOOK COMMENTS WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2> <img src=\"@PROJECT_PATH@/assets/images/facebook-comments.jpg\"></div>",
-          "innerTextGoogle": "<div class=\"googlePlaceholder\" data-numposts=\"\"><h2>GOOGLE COMMENTS WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2> <img src=\"@PROJECT_PATH@/assets/images/google-comments.jpg\"></div>",
+          "innerTextGoogle": "<div class=\"googlePlaceholder\" data-numposts=\"\"><h2>GOOGLE COMMENTS WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2> <img src=\"@ADDONS_PATH@/facebook-comments/facebook-comments-block/assets/google-comments.jpg\"></div>",
           "innerTextDisqus": "<div class=\"disqusPlaceholder\" data-numposts=\"\"><h2>DISQUS COMMENTS WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2> <img src=\"@ADDONS_PATH@/facebook-comments/facebook-comments-block/assets/disqus-comments.jpg\"></div>",
           "alias": "facebook-comments",
           "_tags": [
@@ -505,7 +608,7 @@
     "price.html": {
       "settings": {
         "title": "pricing Ride Cost",
-        "order": 6,
+        "order": 5,
         "meta_descr": "",
         "header_custom": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-133472443-1\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-133472443-1');\n</script>\n\n",
         "footer_custom": "<!-- Google Tag Manager (noscript) -->\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-P3PKSLQ\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) -->"
@@ -1194,7 +1297,7 @@
     "privacy-policy.html": {
       "settings": {
         "title": "privacy policy ",
-        "order": 7,
+        "order": 6,
         "header_custom": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-133472443-1\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-133472443-1');\n</script>\n\n"
       },
       "components": [
@@ -1463,8 +1566,8 @@
             "overlayColor": "#7e9b9f",
             "overlayOpacity": 0.6
           },
-          "innerText": "<div class=\"facebookPlaceholder\" data-numposts=\"\"><h2>FACEBOOK COMMENTS WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2> <img src=\"@PROJECT_PATH@/assets/images/facebook-comments.jpg\"></div>",
-          "innerTextGoogle": "<div class=\"googlePlaceholder\" data-numposts=\"\"><h2>GOOGLE COMMENTS WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2> <img src=\"@PROJECT_PATH@/assets/images/google-comments.jpg\"></div>",
+          "innerText": "<div class=\"facebookPlaceholder\" data-numposts=\"\"><h2>FACEBOOK COMMENTS WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2> <img src=\"@PROJECT_PATH@/assets/images/facebook-comments1.jpg\"></div>",
+          "innerTextGoogle": "<div class=\"googlePlaceholder\" data-numposts=\"\"><h2>GOOGLE COMMENTS WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2> <img src=\"@ADDONS_PATH@/facebook-comments/facebook-comments-block/assets/google-comments.jpg\"></div>",
           "innerTextDisqus": "<div class=\"disqusPlaceholder\" data-numposts=\"\"><h2>DISQUS COMMENTS WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2> <img src=\"@ADDONS_PATH@/facebook-comments/facebook-comments-block/assets/disqus-comments.jpg\"></div>",
           "alias": "facebook-comments",
           "_tags": [
@@ -1478,7 +1581,7 @@
     "our-partners.html": {
       "settings": {
         "title": "Our Partners",
-        "order": 3,
+        "order": 1,
         "meta_descr": "Mobile Marketing Company that are trying to connect like minded brands while providing transportation services around the Downtown Naperville Area. ",
         "footer_custom": "<!-- Google Tag Manager (noscript) -->\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-P3PKSLQ\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) -->",
         "header_custom": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-133472443-1\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-133472443-1');\n</script>\n\n"
@@ -1817,105 +1920,13 @@
               "border-color": "#94a5d0"
             }
           }
-        },
-        {
-          "_styles": {
-            ".mbr-section-title, .mbr-section-text": {
-              "color": "#fff"
-            },
-            ".mbr-section-title": {
-              "color": "#ffe3ab"
-            },
-            ".mbr-section-text": {
-              "color": "#fffffd",
-              "text-align": "center"
-            }
-          },
-          "_params": {
-            "autoplay": true,
-            "fullScreen": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "showBullets": true,
-            "bgColor": "#fff",
-            "timeout": 5,
-            "slides": [
-              {
-                "image": "@PROJECT_PATH@/assets/images/dental-implant-rendering-img-615x352.jpg",
-                "contentAlign": "center",
-                "active": false,
-                "showButtons": true,
-                "showText": true,
-                "showTitle": true,
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "title": "\n<div><br></div><div><span style=\"font-size: 5rem; letter-spacing: 0px;\">Dental Implants</span><br></div>",
-                "overlay": true,
-                "overlayOpacity": "0.6",
-                "text": "Dental implants are the most effective, attractive way to replace missing teeth. Implants can last a lifetime and improve your quality of life by restoring your ability to eat, speak and smile with confidence, while also stimulating bone growth and preventing facial sagging. Dr. Anthony LaVacca is a board-certified Naperville prosthodontist and a renowned implant dentist with expertise in both titanium and ceramic dental implants, as well as procedures like All-on-4® and Teeth-in-a-Day®. He relies on advanced imaging technology, techniques and materials to safely give his patients the ideal combination of function and esthetics.&nbsp;<br>",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Learn More</a> "
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/09594582-1-640x360.jpg",
-                "contentAlign": "left",
-                "active": false,
-                "showButtons": false,
-                "showText": true,
-                "showTitle": true,
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "title": "<b>Monarque Real Estate Group</b>",
-                "overlay": true,
-                "overlayOpacity": "0.2",
-                "text": "<br>Better Information. Better Decisions.<br><br>Here is one of Monarque Featured Listing.<br>605 West Jefferson Avenue\n<br>NAPERVILLE, IL hotel\n<br>4 BD\n<br>turned_in\n<br>4 BA\n<br>layers\n<br>4300 SF<br>$<i>1,485,000</i><br>",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">For Mac</a>"
-              },
-              {
-                "image": "@THEME_PATH@/components/_images/slider/slider03.jpg",
-                "contentAlign": "right",
-                "active": true,
-                "showButtons": true,
-                "showText": true,
-                "showTitle": true,
-                "playVideo": true,
-                "videoUrl": "https://youtu.be/KLeda73iOw0",
-                "title": "Monarque Real Estate Group<div><br></div>",
-                "overlay": true,
-                "overlayOpacity": "0.3",
-                "text": "Karen Marposon\n<br><a href=\"mailto:info@monarqueRE.com\">Email Me</a> | <a href=\"tel:+1-630-637-0997\">630.637.0997\n</a><br>\n<br>Keller Williams Realty - Infinity \n<br>608 S. Washington Street, Suite 100\n<br>Naperville, IL 60540<br>",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Download Monarqueres Mobile App</a> "
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/zirconia-guide-ipad-1-400x545.png",
-                "contentAlign": "center",
-                "active": false,
-                "showButtons": true,
-                "showText": true,
-                "showTitle": true,
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "title": "Meet The Doctors\n<div><br></div>",
-                "overlay": true,
-                "text": "Our multi-specialty practice offers general, cosmetic and implant dentistry in the heart of downtown Naperville under the guidance of board-certified prosthodontist Dr. Anthony LaVacca. In addition to Dr. LaVacca, we have a board-certified endodontist, numerous general dentists, a board-certified dental anesthesiologist and a board-certified oral surgeon on staff. Our friendly, professional team can protect, restore and rejuvenate your smile, while offering the most coordinated, comprehensive approach to care possible. Our doctors are trained in using state-of-the-art techniques and technology to painlessly give our patients stunning results.&nbsp;<br>",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Learn More</a> "
-              }
-            ]
-          },
-          "arrowleft": "<img src=\"@THEME_PATH@/components/_images/slider/arrow-left.png\">",
-          "arrowright": "<img src=\"@THEME_PATH@/components/_images/slider/arrow-right.png\">",
-          "articleLayout": false,
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "slider",
-          "_anchor": "slider-1o"
         }
       ]
     },
     "contact.html": {
       "settings": {
         "title": "contact-us",
-        "order": 4,
+        "order": 3,
         "header_custom": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-133472443-1\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-133472443-1');\n</script>\n\n",
         "meta_descr": "Mobile Marketing Company that are trying to connect like minded brands while providing transportation services around the Downtown Naperville Area. ",
         "footer_custom": "<!-- Google Tag Manager (noscript) -->\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-P3PKSLQ\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) -->"
@@ -2208,10 +2219,10 @@
         }
       ]
     },
-    "mainpage.html": {
+    "main-page.html": {
       "settings": {
         "main": true,
-        "title": "1ZaCar Taxi Naperville Electric Taxi ",
+        "title": "ZaCar Taxi Naperville Electric Taxi ",
         "meta_descr": "ZaCar Naperville Electric Taxi Mobile Marketing Company that are trying to connect like minded brands while providing transportation services around the Downtown Naperville Area. ",
         "header_custom": "<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-P3PKSLQ');</script>\n<!-- End Google Tag Manager -->",
         "footer_custom": "<!-- Google Tag Manager (noscript) -->\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-P3PKSLQ\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) -->",
@@ -2337,7 +2348,7 @@
               {
                 "image": "@PROJECT_PATH@/assets/images/42293486-283734005575807-990793468504702976-n-1-960x720.jpg",
                 "contentAlign": "center",
-                "active": false,
+                "active": true,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
@@ -2348,50 +2359,6 @@
                 "overlayOpacity": "0.1",
                 "text": "<br>ZaCar Electric Taxi  Naperville. Zacar Naperville is an eco-friendly transportation system; dedicated to providing top quality service. We offer a fun way for Naperville residents and visitors to travel, shop, and enjoy the towns entertainment.&nbsp;",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Get A Ride</a> "
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/zacar-2-1200x628.jpg",
-                "contentAlign": "left",
-                "active": false,
-                "showButtons": false,
-                "showText": false,
-                "showTitle": true,
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "title": "ZaCar Electric Taxi",
-                "overlay": true,
-                "overlayOpacity": "0.2",
-                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">For Mac</a>"
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/zacar-3-1200x628.jpg",
-                "contentAlign": "right",
-                "active": true,
-                "showButtons": false,
-                "showText": false,
-                "showTitle": true,
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "title": "ZaCar Electric Taxi",
-                "overlay": false,
-                "text": "",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">For Mac</a>"
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/slider05.jpg",
-                "contentAlign": "left",
-                "active": false,
-                "showButtons": true,
-                "showText": true,
-                "showTitle": true,
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "title": "IMAGE SLIDE",
-                "overlay": true,
-                "overlayOpacity": "0.5",
-                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">For Mac</a>"
               }
             ]
           },
@@ -2402,7 +2369,8 @@
             "Theme"
           ],
           "_name": "slider",
-          "_anchor": "slider-1u"
+          "_anchor": "slider-1u",
+          "_customCSS": ""
         },
         {
           "_params": {
@@ -2471,7 +2439,7 @@
               "name": "sunshade",
               "family": "icon54-v4",
               "active": true,
-              "link": "https://mobirise.com"
+              "link": ""
             }
           },
           "title3": "What is Mobirise",
@@ -2501,7 +2469,8 @@
               "background": "#ffb6ab",
               "border-color": "#ffb6ab"
             }
-          }
+          },
+          "_customCSS": ""
         },
         {
           "_styles": {
@@ -2619,19 +2588,6 @@
           "_anchor": "features5-1w"
         },
         {
-          "_styles": {
-            ".mbr-section-title, .mbr-section-subtitle": {
-              "margin-bottom": "1rem",
-              "color": "#ffffff"
-            },
-            ".mbr-iconfont": {},
-            ".mbr-table-cell": {
-              "vertical-align": "middle"
-            },
-            ".heading-title": {
-              "color": "#ffe3ab"
-            }
-          },
           "_params": {
             "showTitle": true,
             "showText": true,
@@ -2660,7 +2616,18 @@
             "Theme"
           ],
           "_name": "content5",
-          "_anchor": "content5-1v"
+          "_anchor": "content5-1v",
+          "_customHTML": "<section class=\"mbr-section content5\" data-rv-view=\"14\" style=\"background: linear-gradient(to right top, rgb(25, 182, 143), rgb(68, 100, 148)) rgb(25, 182, 143); padding-top: 80px; padding-bottom: 80px;\">\n\n    \n\n        <div class=\"container\">\n            <div class=\"row heading\">\n                <div class=\"col-md-10\">\n\n                    <h1 class=\"mbr-section-title display-1 heading-title mbr-editable-content\" code-editable-id=\"10\">Za Cars&nbsp;</h1>\n                    <p class=\"mbr-section-subtitle text-1 heading-text mbr-editable-content\" code-editable-id=\"11\"><strong>the latest electric option for getting around downtown Naperville. &nbsp;<br>Patrons of downtown Naperville have options when it comes to finding electric people-movers to ferry them around the busy city center.<br>Three Za Cars — four-wheeled, six-person electric vehicles — have been transporting passengers on downtown Naperville streets for $1 a person for the last few months, said Mike Belgio, owner of Naperville's Za Cars.</strong><br>Belgio was originally a co-owner of Tuk Tuk Naperville, but split with his business partner after about a year-and-a-half to bring his own fleet of electric vehicles to the Naperville market, Belgio said.<br><br>\"I've been in transportation for almost 30 years,\" Belgio said. \"This was a neat niche that me and my ex-partner came up with. I thought it was something I wanted to keep going with.\"<br><br>While both Tuk Tuks and Za Cars are electric and seat six people, the vehicles are different in appearance. Za Cars, for example, have four wheels while Tuk Tuks have three.<br><br>\"Ours are fully enclosed in the winter, and in the summertime we take the doors off,\" Belgio said. \"It's a fun mode of transportation from a home to downtown or to a parking lot.\"<br><br>Za Cars are made by Polaris, a company known for producing snowmobiles and all-terrain vehicles.<br><br>\"It's a very well-built machine,\" Belgio said. \"We started with three (vehicles). I knew the demand was there, and so far its been a big hit.\"<br><br>Despite being heated and fully enclosed, Za Cars are not insulated like a regular car. \"It's weather permitting. When it's really really cold, we haven't been operating,\" Belgio said.<br><br>Belgio says he split from Tuk Tuk when he and his partner Bill Hamik began having different views on the future of the company. \"I'm just trying to get it out there that we are separate owners, but we offer the same type of service,\" Belgio said.<br><br>\"We recognize Za Cars are another electric vehicle company in Naperville, and we wish them success,\" Hamik said.<br><br>Za Cars typically operate from 4 to 9 p.m. Monday through Thursday and from 4 to 11 p.m. on Fridays and Saturdays.<br><br></p>\n                    <div class=\"mbr-section-btn\"><a class=\"btn btn-lg btn-danger mbr-editable-button\" href=\"https://mobirise.com\" code-editable-id=\"12\">Naperville Sun</a></div>\n                </div>\n            </div>\n        </div>\n\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customCSS": ".mbr-section-title, .mbr-section-subtitle {\n  margin-bottom: 1rem;\n  color: #ffffff;\n}\n.mbr-iconfont {\n  color: undefined;\n  border-color: undefined;\n}\n.mbr-table-cell {\n  vertical-align: middle;\n}\n.heading-title {\n  color: #ffe3ab;\n}\n",
+          "_customTemplate": true,
+          "_styles": {
+            ".mbr-iconfont": {},
+            ".mbr-table-cell": {
+              "vertical-align": "middle"
+            }
+          }
         },
         {
           "_styles": {

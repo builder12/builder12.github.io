@@ -589,11 +589,15 @@ a:hover {
   margin-bottom: 1rem;
   color: #ffffff;
 }
+#content5-1r .mbr-iconfont {
+  color: undefined;
+  border-color: undefined;
+}
 #content5-1r .mbr-table-cell {
   vertical-align: middle;
 }
-#form1-1y .form {
-  background: #fafbfc;
+#subscribe1-1g .form-control-label {
+  color: undefined;
 }
 #footer3-1d .mbr-section-text {
   color: #8acdbc;
@@ -608,9 +612,6 @@ a:hover {
 #footer2-16 .btn-social:hover {
   background: #fffffd;
   color: #fff;
-}
-#toggle1-1x DIV {
-  color: #667bb1;
 }
 #menu1-7 .hide-buttons .nav-btn {
   display: none !important;
@@ -680,6 +681,10 @@ a:hover {
 #header2-8 .mbr-section-title,
 #header2-8 .mbr-section-subtitle {
   color: #ffffff;
+}
+#header2-8 .mbr-iconfont {
+  color: undefined;
+  border-color: undefined;
 }
 #header2-8 .mbr-table-cell {
   vertical-align: middle;
@@ -880,20 +885,13 @@ a:hover {
 #content3-1s H1 {
   color: #5aac98;
 }
+#features7-20 .mbr-iconfont {
+  color: undefined;
+  border-color: undefined;
+}
 #features15-1y .mbr-iconfont {
   background: #94a5d0;
   border-color: #94a5d0;
-}
-#slider-1o .mbr-section-title,
-#slider-1o .mbr-section-text {
-  color: #fff;
-}
-#slider-1o .mbr-section-title {
-  color: #ffe3ab;
-}
-#slider-1o .mbr-section-text {
-  color: #fffffd;
-  text-align: center;
 }
 #menu1-0 .hide-buttons .nav-btn {
   display: none !important;
@@ -1069,6 +1067,13 @@ a:hover {
 }
 #features5-1w .card-title {
   color: #bb8c2e;
+}
+#content5-1v .mbr-iconfont {
+  color: undefined;
+  border-color: undefined;
+}
+#content5-1v .mbr-table-cell {
+  vertical-align: middle;
 }
 #content5-1v .mbr-section-title,
 #content5-1v .mbr-section-subtitle {
