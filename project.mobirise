@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Site-02-16_1035",
-    "currentPage": "danny.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "resumeamp",
       "title": "ResumeAMP",
@@ -39,10 +39,10 @@
     "versionPublish": "4.9.3"
   },
   "pages": {
-    "danny.html": {
+    "index.html": {
       "settings": {
         "main": true,
-        "title": "Home",
+        "title": "Daniel Fernandes Resume ",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
