@@ -1,0 +1,226 @@
+<html>
+<head>
+	<title>Installatron Server 4.1.46</title>	<meta name="viewport" content="width=1024"/>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+	<link rel='stylesheet' type='text/css' href = '/static/i.css'/><!-- /static -->
+	<!--[if lt IE 9]><script src='https://html5shim.googlecode.com/svn/trunk/html5.js'></script><![endif]--><script type="text/javascript" src="/static/jquery.min.js"></script>
+<script type="text/javascript">
+
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-392893-1']);
+_gaq.push(['_setDomainName', 'installatron.com']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	if (window.devicePixelRatio>1){var dpr = document.createElement('link');dpr.type='text/css';dpr.rel='stylesheet';dpr.href=('https:' == document.location.protocol ? 'https://secure.' : 'http://')+'installatron.com/static/ihd.css';s.parentNode.insertBefore(dpr, s);}
+})();
+
+</script>
+
+</head>
+<body>
+
+<div id="iw_ss_overlay"></div>
+<div id="iw_ss"></div>
+<script type="text/javascript">
+window.i_ss=function(img)
+{
+	window.i_ss_scrollTo=$(window).scrollTop();
+	$('body').css('overflow','hidden');
+	$('#iw_ss').html("<div><img src='"+img+"' onload='window.i_ss_fixwidth()'/></div>");
+	document.getElementById('iw_ss_overlay').style.display='block';
+	document.getElementById('iw_ss').style.display='block';
+	$('#iw_ss div').css('height',$(window).height()-100);
+}
+document.getElementById('iw_ss').onclick=function()
+{
+	document.getElementById('iw_ss_overlay').style.display='none';
+	document.getElementById('iw_ss').style.display='none';
+	$('body').css('overflow','');
+	if ( window.i_ss_scrollTo != null )
+	{
+		$(window).scrollTop(window.i_ss_scrollTo);
+		window.i_ss_scrollTo = null;
+	}
+};
+window.i_ss_fixwidth=function()
+{
+	$('#iw_ss div').css('width',$('#iw_ss img').width()+25);
+}
+$(document).keyup(function(e){if(e.which == 27)document.getElementById('iw_ss').onclick();});
+</script>
+
+<div id="iw_nav"><div class="iw_content_inner">
+
+<div style="float:right;font-size:11.5px;margin-top:4px;width:400px;height:16px;text-align:right;font-size:11px">
+<a href='/login'>Login/Register</a>	</div>
+
+	<div class='iw_nav_logo'><a href='/'>Installatron</a></div>
+
+	<ul>
+		<li class='current'><a href='/products'>Products</a></li>
+		<li><a href='/apps'>The Apps</a></li>
+		<li><a href='/company'>Company</a></li>
+		<li><a href='/support'>Support</a></li>
+		<li><a href='/account' style='padding-right:0px'>My Account</a></li>
+	</ul>
+
+</div></div>
+
+
+
+
+
+
+
+
+
+		<div id='iw_subnav'><div class='iw_content_inner'>
+	<div class='iw_content_head_title'>
+		<a href='/company'>Company</a>
+	</div>
+		<ul>
+			<div class='iw_content_head_nav_shadowhider'><div></div></div>
+			<li><a href='/company'>Introduction</a></li>
+			<li><a href='/milestones'>Milestones</a></li>
+			<li><a href='/whatsnew'>What's New</a></li>
+			<li><a href='/press'>Press Center</a></li>
+			<li><a href='/partners'>Partners</a></li>
+			<li><a href='/support'>Contact Us&#9656;</a></li>
+		</ul>
+</div></div>
+			<script>
+if ( document.getElementById("iw_subnav")
+ && !(/iPhone|iPod|iPad|Android|BlackBerry/).test(navigator.userAgent) )
+{
+	$("#iw_subnav").data("top", $("#iw_subnav").offset().top);
+	$(window).scroll(function()
+	{
+		var r = $("#iw_subnav");
+		if ($(window).scrollTop() > r.data("top"))
+		{ 
+			r.css({'position': 'fixed', 'top': '0', 'width': '100%'});
+			$('#iw_subnav_overlay').css('z-index','1');
+			$('#iw_nav').css('padding-bottom',r.height()+'px');
+		}
+		else
+		{
+			r.css({'position': 'static', 'top': 'auto', 'width': '100%'});
+			$('#iw_subnav_overlay').css('z-index','11');
+			$('#iw_nav').css('padding-bottom','0px');
+		}
+	});
+}
+</script>
+		<div class='iw_content_box'><header><h1>Update Feed</h1></header><section>
+
+
+<a href='/apps/'><div style='padding:1px;background:#dee4ea;float:left; margin:-10px 15px 0 -3px; border-radius: 10px;'><div style='background-image:url(/images/logos/icon_installatron64.gif);border-radius:9px;width: 64px;height: 62px;border-top: 1px solid rgba(255,255,255,0.6);border-bottom: 1px solid transparent;box-shadow: 0 1px 2px rgba(0,0,0,0.3);
+
+'></div></div></a>
+
+<h1 style='margin-bottom:0'>Installatron Server 4.1.46</h1><p style='color:#555;margin-bottom:25px'>10 June 2019</p><p>IP-1231-1 Fixed a MySQL performance bottleneck impacting certain processes, including Clone, Import from Remote Server, and Restore to New Location. Up to 40% faster processing in some cases!
+<br>IS-1232-1 Fixed detection of MySQL file format.
+<br>IS-1268-1 Fixed Restore to Original Location to bypass dependency checks.
+<br>IS-1268-2 Fixed Import from Local Server to bypass dependency checks.
+<br>IS-1278-1 Fixed fatal error which could occur backing up Moodle.
+</p>
+
+
+
+
+
+</section></div><div id="iw_foot">
+
+	<div class='iw_foot_sitemap'>
+	<ul>
+				<li>
+					<a href='/plugin'><strong>(IP) Installatron Plugin</strong></a>
+					<ul>
+						<li><a href='/plugin'>Overview</a></li>
+						<li><a href='/plugin/whatsnew'>What's New</a></li>
+						<li><a href='/plugin/features'>Features</a></li>
+						<li><a href='/plugin/faq'>FAQ</a></li>
+						<li><a href='/plugin/download'>Download Free</a></li>
+						<li><a href='/plugin/buy'>Buy Now</a></li>
+					</ul>	
+				</li>
+				<li>
+					<a href='/server'><strong>(IS) Installatron Server</strong></a>
+					<ul>
+						<li><a href='/server'>Overview</a></li>
+						<li><a href='/server/whatis'>What is Installatron Server?</a></li>
+						<li><a href='/server/whatsnew'>What's New</a></li>
+						<li><a href='/server/features'>Features</a></li>
+						<li><a href='/server/faq'>FAQ</a></li>
+						<li><a href='/developer/server'>API Documentation</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href='/remote'><strong>(IR) Installatron Remote</strong></a>
+					<ul>
+						<li><a href='/remote'>Overview</a></li>
+						<li><a href='/remote/features'>Features</a></li>
+						<li><a href='/remote/faq'>FAQ</a></li>
+						<li><a href='/apps'>Get Started</a></li>
+						<li><a href='/apps#cmd=installs'>My Applications</a></li>
+						<li><a href='/apps#cmd=backups'>My Backups</a></li>
+					</ul>
+				</li>
+		
+		<li>
+			<a href='/company'><strong>Company</strong></a>
+			<ul>
+				<li><a href='/company'>Introduction</a></li>
+				<li><a href='/milestones'>Milestones</a></li>
+								<li><a href='/whatsnew'>What's New</a></li>
+				<li><a href='/press'>Press Center</a></li>
+				<li><a href='/partners'>Partners</a></li>
+								<li><a href='/support'>Contact Us</a></li>
+			</ul>
+		</li>
+
+		<li>
+			<a href='/support'><strong>Support</strong></a>
+			<ul>
+				<li><a href='/docs/admin/troubleshooting'>Troubleshooting</a></li>
+				<li><a href='/docs/websiteowner'>Website Owner Guide</a></li>
+				<li><a href='/docs/admin/guide'>Server Owner Guide</a></li>
+				<li><a href='/developer/automation'>Install Automation Guide</a></li>
+				<li><a href='/forum'>Community Forum</a></li>
+				<li><a href='/support'>Contact Us</a></li>
+			</ul>
+		</li>
+
+		<li style='width:120px'>
+			<a href='/account'><strong>My Account</strong></a>
+			<ul>
+				<li><a href='/account'>Dashboard</a></li>
+				<li><a href='/account/settings'>Settings</a></li>
+				<li><a href='/account/licenses'>Licensing Portal</a></li>
+				<li><a href='/plugin/buy/direct'>Purchase Licenses</a></li>
+				<li><a href='/account/partner'>Become a Partner</a></li>
+			</ul>
+		</li>
+
+		<li style='width:20px;float:right'>
+			<a href='/whatsnew' class='iw_foot_installatron'></a>
+			<a href='http://twitter.com/installatron' class='iw_foot_twitter'></a>
+			<a href='http://facebook.com/installatron' class='iw_foot_facebook'></a>
+			<a href='http://plus.google.com/+Installatron' class='iw_foot_gplus' rel='publisher'></a>
+			<a href='/updatefeed.atom' target='_blank' class='iw_foot_rss'></a>
+		</li>
+
+	
+	</ul>
+	</div>
+
+	<span><a href='/company'>&copy; 2004 - 2019 Installatron LLC. All rights reserved.</a></span>
+	
+</div>
+
+</body>
+</html>
