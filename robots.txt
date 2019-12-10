@@ -1,4 +1,5 @@
-User-agent: *
+User-agent: allow google mobile bot
 Disallow: /cgi-bin
-allow: googlebot
+
+
 
