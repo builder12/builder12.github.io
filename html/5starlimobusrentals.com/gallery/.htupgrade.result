@@ -1,0 +1,352 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<title>Zenphoto upgrade</title>
+		<link rel="stylesheet" href="/gallery/zp-core/admin.css" type="text/css" />
+
+		<script src="/gallery/zp-core/js/jquery.js" type="text/javascript"></script>
+		<script src="/gallery/zp-core/js/zenphoto.js" type="text/javascript" ></script>
+		<script type="text/javascript">
+			var imageErr = false;
+			function toggle_visibility(id) {
+				var e = document.getElementById(id);
+				if (e.style.display == 'block')
+					e.style.display = 'none';
+				else
+					e.style.display = 'block';
+			}
+		</script>
+		<link rel="stylesheet" href="setup.css" type="text/css" />
+
+	</head>
+
+	<body>
+
+		<div id="main">
+
+			<h1><img src="/gallery/zp-core/images/zen-logo.png" title="Zenphoto Setup" alt="Zenphoto Setup" align="bottom" />
+				<span>upgrade</span>
+			</h1>
+
+			<div id="content">
+				<h3>About to update tables...</h3>                                                                                                                                                                                                                                                                                                                                                             <h3>Done with table update</h3><p>
+	Theme setup:<br />		<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_themeOptions.php?theme=basic" title="basic" alt="basic" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_themeOptions.php?theme=effervescence_plus" title="effervescence_plus" alt="effervescence_plus" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_themeOptions.php?theme=garland" title="garland" alt="garland" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_themeOptions.php?theme=zenpage" title="zenpage" alt="zenpage" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_themeOptions.php?theme=zpmobile" title="zpmobile" alt="zpmobile" height="16px" width="16px" />
+		</span>
+		</p>
+
+<p>
+	Plugin setup:<br />		<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=admin-approval" title="admin-approval" alt="admin-approval" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=auto_backup" title="auto_backup" alt="auto_backup" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=bxslider_thumb_nav" title="bxslider_thumb_nav" alt="bxslider_thumb_nav" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=cacheManager" title="cacheManager" alt="cacheManager" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=check_for_update" title="check_for_update" alt="check_for_update" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=class-AnyFile" title="class-AnyFile" alt="class-AnyFile" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=class-textobject" title="class-textobject" alt="class-textobject" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=class-video" title="class-video" alt="class-video" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=class-WEBdocs" title="class-WEBdocs" alt="class-WEBdocs" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=cloneZenphoto" title="cloneZenphoto" alt="cloneZenphoto" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=colorbox_js" title="colorbox_js" alt="colorbox_js" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=comment_form" title="comment_form" alt="comment_form" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=contact_form" title="contact_form" alt="contact_form" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=cookieconsent" title="cookieconsent" alt="cookieconsent" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=crop_image" title="crop_image" alt="crop_image" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=defaultCodeblocks" title="defaultCodeblocks" alt="defaultCodeblocks" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=deprecated-functions" title="deprecated-functions" alt="deprecated-functions" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=downloadList" title="downloadList" alt="downloadList" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=dynamic-locale" title="dynamic-locale" alt="dynamic-locale" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=elFinder" title="elFinder" alt="elFinder" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=email-newuser" title="email-newuser" alt="email-newuser" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=exampleMacros" title="exampleMacros" alt="exampleMacros" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=externalFeed" title="externalFeed" alt="externalFeed" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=favoritesHandler" title="favoritesHandler" alt="favoritesHandler" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=federated_logon" title="federated_logon" alt="federated_logon" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=flag_thumbnail" title="flag_thumbnail" alt="flag_thumbnail" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=galleryArticles" title="galleryArticles" alt="galleryArticles" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=GoogleMap" title="GoogleMap" alt="GoogleMap" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=googleVerify" title="googleVerify" alt="googleVerify" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=html_meta_tags" title="html_meta_tags" alt="html_meta_tags" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=http_auth" title="http_auth" alt="http_auth" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=hitcounter" title="hitcounter" alt="hitcounter" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=jcarousel_thumb_nav" title="jcarousel_thumb_nav" alt="jcarousel_thumb_nav" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=jplayer" title="jplayer" alt="jplayer" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=legacySpam" title="legacySpam" alt="legacySpam" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=macroList" title="macroList" alt="macroList" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=markRelease" title="markRelease" alt="markRelease" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=matomo" title="matomo" alt="matomo" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=menu_manager" title="menu_manager" alt="menu_manager" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=mergedRSS" title="mergedRSS" alt="mergedRSS" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=mobileTheme" title="mobileTheme" alt="mobileTheme" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=multiple_layouts" title="multiple_layouts" alt="multiple_layouts" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=openstreetmap" title="openstreetmap" alt="openstreetmap" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=paged_thumbs_nav" title="paged_thumbs_nav" alt="paged_thumbs_nav" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=PHPMailer" title="PHPMailer" alt="PHPMailer" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=print_album_menu" title="print_album_menu" alt="print_album_menu" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=publishContent" title="publishContent" alt="publishContent" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=quota_manager" title="quota_manager" alt="quota_manager" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=rating" title="rating" alt="rating" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=reCaptcha" title="reCaptcha" alt="reCaptcha" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=register_user" title="register_user" alt="register_user" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=related_items" title="related_items" alt="related_items" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=rewriteRules" title="rewriteRules" alt="rewriteRules" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=rewriteTokens" title="rewriteTokens" alt="rewriteTokens" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=rss" title="rss" alt="rss" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=scriptless-socialsharing" title="scriptless-socialsharing" alt="scriptless-socialsharing" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=search_statistics" title="search_statistics" alt="search_statistics" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=security-logger" title="security-logger" alt="security-logger" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=seo_cleanup" title="seo_cleanup" alt="seo_cleanup" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=seo_locale" title="seo_locale" alt="seo_locale" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=seo_null" title="seo_null" alt="seo_null" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=seo_zenphoto" title="seo_zenphoto" alt="seo_zenphoto" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=show_not_logged-in" title="show_not_logged-in" alt="show_not_logged-in" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=slideshow" title="slideshow" alt="slideshow" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=slideshow2" title="slideshow2" alt="slideshow2" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=static_html_cache" title="static_html_cache" alt="static_html_cache" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=simpleSpam" title="simpleSpam" alt="simpleSpam" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=sitemap-extended" title="sitemap-extended" alt="sitemap-extended" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=site_upgrade" title="site_upgrade" alt="site_upgrade" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=tag_extras" title="tag_extras" alt="tag_extras" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=tag_suggest" title="tag_suggest" alt="tag_suggest" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=themeSwitcher" title="themeSwitcher" alt="themeSwitcher" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=trivialSpam" title="trivialSpam" alt="trivialSpam" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=tweet_news" title="tweet_news" alt="tweet_news" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=tinymce4" title="tinymce4" alt="tinymce4" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=tinyURL" title="tinyURL" alt="tinyURL" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=uploader_http" title="uploader_http" alt="uploader_http" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=uploader_jQuery" title="uploader_jQuery" alt="uploader_jQuery" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=user-expiry" title="user-expiry" alt="user-expiry" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=userAddressFields" title="userAddressFields" alt="userAddressFields" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=user_groups" title="user_groups" alt="user_groups" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=user_login-out" title="user_login-out" alt="user_login-out" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=user_mailing_list" title="user_mailing_list" alt="user_mailing_list" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=viewer_size_image" title="viewer_size_image" alt="viewer_size_image" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=wordpress_import" title="wordpress_import" alt="wordpress_import" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=xmpMetadata" title="xmpMetadata" alt="xmpMetadata" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=zenpage" title="zenpage" alt="zenpage" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=zenphotoDonate" title="zenphotoDonate" alt="zenphotoDonate" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=zenphoto_news" title="zenphoto_news" alt="zenphoto_news" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=zenphoto_sendmail" title="zenphoto_sendmail" alt="zenphoto_sendmail" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=zpCaptcha" title="zpCaptcha" alt="zpCaptcha" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=image_album_statistics" title="image_album_statistics" alt="image_album_statistics" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=image_effects" title="image_effects" alt="image_effects" height="16px" width="16px" />
+		</span>
+				<span>
+			<img src="http://www.5tarlimobusrentals.com/gallery/zp-core/setup/setup_pluginOptions.php?plugin=ipBlocker" title="ipBlocker" alt="ipBlocker" height="16px" width="16px" />
+		</span>
+		</p>
+
+								<p id="golink" class="delayshow" style="display:none;">You can now <a href="/gallery/zp-core/admin.php">administer your gallery.</a></p>
+																<script type="text/javascript">
+									window.onload = function() {
+										$('.delayshow').show();
+												}
+								</script>
+																		<br class="clearall" />
+			</div><!-- content -->
+		</div><!-- main -->
+		<div id="footer">
+  <a href="http://www.zenphoto.org" title="The simpler media website CMS">zen<strong>photo</strong></a> | <a href="http://www.zenphoto.org/support/" title="Forum">Forum</a> | <a href="https://github.com/zenphoto/zenphoto/issues" title="Bugtracker">Bugtracker </a> | <a href="http://www.zenphoto.org/news/category/changelog" title="View Change log">Change log</a>
+</div>	</body>
+<script>'undefined'=== typeof _trfq || (window._trfq = []);'undefined'=== typeof _trfd && (window._trfd=[]),_trfd.push({'tccl.baseHost':'secureserver.net'}),_trfd.push({'ap':'cpsh'},{'server':'a2plcpnl0485'}) // Monitoring performance to make your website faster. If you want to opt-out, please contact web hosting support.</script><script src='https://img1.wsimg.com/tcc/tcc_l.combined.1.0.6.min.js'></script></html>

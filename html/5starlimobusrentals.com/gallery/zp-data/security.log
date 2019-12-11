@@ -1,0 +1,11 @@
+date	requestor’s IP	type	user ID	user name	outcome	authority	additional information
+2018-09-07 22:25:43	107.180.51.101	Install			Success	zp_admin	version 1.4.14[f5b47da52f]
+		Set Security log permissions			Failed		File permissions of Security log are 0640
+2018-10-01 18:44:03	107.180.51.101	Install			Success	zp_admin	version 1.5
+2018-12-15 21:16:14	98.223.163.40	Protect setup scripts			Success	zp_admin	protected
+2018-12-15 21:17:02	98.223.163.40	Protect setup scripts			Success	zp_admin	protected
+2018-12-15 21:25:25	98.223.163.40	Protect setup scripts			Success	zp_admin	protected
+2018-12-15 21:25:52	98.223.163.40	Protect setup scripts			Success	zp_admin	protected
+2018-12-15 21:26:00	98.223.163.40	Protect setup scripts	builder	Site Owner	Success	zp_admin	protected
+2018-12-15 21:42:28	98.223.163.40	Protect setup scripts	builder	Site Owner	Success	zp_admin	protected
+2018-12-15 21:46:24	98.223.163.40	Protect setup scripts	builder	Site Owner	Success	zp_admin	protected

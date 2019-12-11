@@ -1,0 +1,4 @@
+WORDS="new dynamic album"
+THUMB=1
+FIELDS=city,country,desc,location,state,tags,title
+CONSTRAINTS=inalbums=1&inimages=1&unpublished=0

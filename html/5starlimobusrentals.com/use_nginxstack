@@ -1,0 +1,8 @@
+#!/bin/sh
+
+PATH="/Users/mac-pro-office/Documents/Quotes/varnish/bin:/Users/mac-pro-office/Documents/Quotes/sqlite/bin:/Users/mac-pro-office/Documents/Quotes/nginx/sbin:/Users/mac-pro-office/Documents/Quotes/php/bin:/Users/mac-pro-office/Documents/Quotes/mysql/bin:/Users/mac-pro-office/Documents/Quotes/common/bin:$PATH"
+BITNAMI_ROOT="/Users/mac-pro-office/Documents/Quotes"
+export BITNAMI_ROOT
+
+
+exec /bin/bash --noprofile --norc

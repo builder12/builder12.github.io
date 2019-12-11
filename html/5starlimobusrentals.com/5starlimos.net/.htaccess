@@ -1,0 +1,17 @@
+
+AddHandler CGI-script DOCUMENT_ROOT
+AddHandler server-parsed Html
+AddType Application/Sass .sass
+
+AddHandler cgi-script mod_expires
+AddHandler cgi-script mod_gzip
+
+AddHandler cgi-script LoadModule mod_rewrite.so
+AddHandler cgi-script mod_mime
+
+AddHandler cgi-script mod_headers
+AddHandler cgi-script mod_rewrite
+AddHandler cgi-script mod_deflate
+AddHandler cgi-script mod_env
+AddHandler cgi-script mod_ext_filter, mod_filter
+AddHandler cgi-script mod_setenvif
