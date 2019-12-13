@@ -1,3 +1,11 @@
+<IfModule !mod_passenger.c>
+    LoadModule passenger_module /opt/passenger-5.3.7-4.el6.cloudlinux/buildout/apache2/mod_passenger.so
+    PassengerRoot /opt/passenger-5.3.7-4.el6.cloudlinux
+    PassengerDefaultRuby /opt/alt/ruby21/bin/ruby
+    PassengerInstanceRegistryDir /var/passenger
+    PassengerStatThrottleRate 0
+</IfModule>
+
 RewriteEngine On
 RewriteBase /
 RewriteRule ^index\.php$ - [L]
